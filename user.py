@@ -72,3 +72,4 @@ class UserRegister(Resource):
         connection.close()
 
         return {"message": "User created successfully."}, 201
+
