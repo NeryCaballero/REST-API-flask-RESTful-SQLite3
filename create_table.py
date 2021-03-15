@@ -15,3 +15,4 @@ cursor.execute(create_table)
 connection.commit()
 
 connection.close()
+
