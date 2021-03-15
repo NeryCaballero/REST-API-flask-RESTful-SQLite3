@@ -1,5 +1,6 @@
 # Creating Tables with *sqlite3*
 
+<hr>
 
 ```python
 import sqlite3
@@ -20,6 +21,7 @@ connection.commit()
 
 connection.close()
 ```
+
 1. Import pre-built module `sqlite3`.
 2. Initialize a connection via `sqlite3.connect('<name-of-file.db>')` *the file can be name as wished, with the extention db*. In here will go the URI if working with a DB.
 3. Declare `cursor = connection.cursor()`.
@@ -28,3 +30,4 @@ connection.close()
 6. Commit, so the changes get saved.
 7. Close the connection.
 
+<hr>
