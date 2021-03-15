@@ -16,7 +16,5 @@ api.add_resource(Item, '/item/<string:name>')
 api.add_resource(ItemList, '/items')
 api.add_resource(UserRegister, '/register')
 
-# avoids running app from an import
-# will run only if the file is being executed from running app.py
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+app.run(port=5000, debug=True)
+
