@@ -113,3 +113,4 @@ class ItemList(Resource):
         connection.close()
 
         return {'items': items}
+
