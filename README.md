@@ -43,6 +43,7 @@ You will then be able to Create new users, Authenticate and CRUD item(s).
   
   For more details on authentication go [here](https://github.com/NeryCaballero/REST-API-flask-RESTful/blob/main/flask_jwt.md), *all the way to the end*.
 
+## 
 
 - POST `localhost:5000/item/<item-name>` : Creates new item by passing the name on the URL.
   
@@ -54,12 +55,15 @@ You will then be able to Create new users, Authenticate and CRUD item(s).
   }
   ```  
 
+## 
 
 - GET `localhost:5000/item/<item-name>` : Reads one item by passing the name on the URL.
 
+## 
 
 - GET `localhost:5000/items`  : Reads all items.
 
+## 
 
 - PUT `localhost:5000/item/<item-name>` : Updates one item by passing the name on the URL. If the item does not exists, it will be created. 
   
@@ -71,10 +75,9 @@ You will then be able to Create new users, Authenticate and CRUD item(s).
   }
   ```
 
+## 
 
 - DEL `localhost:5000/item/<item-name>` : Deletes one item by passing the name on the URL. 
 
 
-
 <hr>
-
