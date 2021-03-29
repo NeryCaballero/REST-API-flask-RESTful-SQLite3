@@ -1,5 +1,4 @@
 # Flask RESTful API SQLite3
-<hr>
 
 This project is a continuation of my previous [REST API](https://github.com/NeryCaballero/REST-API-flask-RESTful) created with Python `flask` , `flask_restful` and `flask_jwt`.
 
@@ -9,14 +8,14 @@ This API has 2 resources: ```Item``` and ```Items```.
 
 `authentication` has been applied with `flask_jwt`.
 
-<hr>
+## 
 
 The API information will be stored in a file `data.db` which will act as the SQLite database.
 To generate this file, *and with it the tables*, run `create_table.py` before running `app.py`.
 
 You will then be able to Create new users, Authenticate and CRUD item(s).
 
-<hr>
+## 
 
 ## The available endpoints are:
 
@@ -28,7 +27,8 @@ You will then be able to Create new users, Authenticate and CRUD item(s).
     "password": str 
   }
   ```
-  
+
+## 
   
 - POST `localhost:5000/auth` : Authenticates existing user. Provides an `access token`. 
   
