@@ -80,4 +80,3 @@ You will then be able to Create new users, Authenticate and CRUD item(s).
 - DEL `localhost:5000/item/<item-name>` : Deletes one item by passing the name on the URL. 
 
 
-<hr>
