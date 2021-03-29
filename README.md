@@ -19,7 +19,8 @@ You will then be able to Create new users, Authenticate and CRUD item(s).
 
 ## The available endpoints are:
 
-- POST `localhost:5000/register`: registers a new user. Information required in JSON 
+- POST `localhost:5000/register`: Registers a new user. 
+  Information required in JSON :
 
   ```json
   { 
@@ -31,6 +32,7 @@ You will then be able to Create new users, Authenticate and CRUD item(s).
 ## 
   
 - POST `localhost:5000/auth` : Authenticates existing user. Provides an `access token`. 
+  This token must be included on the headers of all the following requests. `Authorization = JWT <token>`
   
   Information required in JSON:
   
